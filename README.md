@@ -18,5 +18,5 @@ webVNC base: https://github.com/fcwu/docker-ubuntu-vnc-desktop
 
 sudo docker run --privileged -v /dev/bus/usb:/dev/bus/usb -p 6080:80 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
 
-TODO: self-adaptive resolution
+TODO: self-adaptive resolution https://github.com/novnc/noVNC/issues/869
 
