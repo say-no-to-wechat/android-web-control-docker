@@ -10,6 +10,6 @@ some scripts to make web interface better.
 
 android: navbar app (https://play.google.com/store/apps/details?id=nu.nav.bar&hl=en_US&gl=US) or enable android built-in navbar (https://forum.xda-developers.com/chef-central/android/how-to-enable-navigation-bar-android-t3461012)
 
-
+webVNC base: https://github.com/fcwu/docker-ubuntu-vnc-desktop
 
 
