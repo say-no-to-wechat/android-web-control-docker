@@ -1,5 +1,2 @@
 xrandr --fb 418x846
 
-quick_exec=1 
-.config/libfm/libfm.conf
-
