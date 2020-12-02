@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=fix-resolution
+Comment=A sample application
+Exec=xrandr --fb 418x757
+Terminal=false

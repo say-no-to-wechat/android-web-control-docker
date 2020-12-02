@@ -8,5 +8,5 @@ FROM dorowu/ubuntu-desktop-lxde-vnc
 RUN apt update && apt install -y scrcpy
 COPY libfm.conf /root/.config/libfm/libfm.conf
 COPY scrcpy.desktop /root/Desktop/scrcpy.desktop
-COPY fix-resolution.sh /root/Desktop/fix-resolution.sh
+COPY fix-resolution.desktop /root/Desktop/fix-resolution.desktop
 
