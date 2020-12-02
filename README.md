@@ -28,7 +28,7 @@ sudo docker run --privileged -v /dev/bus/usb:/dev/bus/usb -p 6080:80 -v /dev/shm
 
 - Use your way to access localhost:6080, run `fix-resolution.sh` in first login if necessary, and run `scrcpy` to connect.
 
-## How to use web interface
+## How to use web interface if you failed to enable navbar
 
 - Desktop
 
