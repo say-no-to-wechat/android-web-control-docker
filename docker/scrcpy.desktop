@@ -3,5 +3,6 @@ Type=Application
 Encoding=UTF-8
 Name=scrcpy
 Comment=A sample application
-Exec=/usr/bin/scrcpy
+# Limit session time and lock screen on disconnect, to save power. 
+Exec=sh -c 'timeout 30m /usr/bin/scrcpy ; adb shell input keyevent 26'
 Terminal=false
